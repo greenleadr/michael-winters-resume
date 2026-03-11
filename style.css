@@ -825,6 +825,41 @@ img { display: block; max-width: 100%; }
 }
 .spotify-link:hover { opacity: .85; transform: translateY(-1px); }
 
+/* ── Music Banner ── */
+.music-banner {
+  background: var(--navy);
+  padding: 2rem 1.5rem;
+}
+.music-banner-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.music-banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+.music-banner-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+  letter-spacing: .01em;
+}
+.music-banner-desc {
+  font-size: .875rem;
+  color: rgba(255,255,255,.65);
+  line-height: 1.5;
+}
+.music-banner-link {
+  flex-shrink: 0;
+  margin-top: 0;
+}
+
 /* ─────────────────────────────────────────
    WHAT I BRING
 ───────────────────────────────────────── */
