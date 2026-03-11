@@ -497,6 +497,9 @@ img { display: block; max-width: 100%; }
   border-radius: 50%;
   background: var(--gold);
 }
+.achievement-list li p {
+  margin: 0;
+}
 .achievement-tag {
   font-size: .68rem;
   font-weight: 700;
