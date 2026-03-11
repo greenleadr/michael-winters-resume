@@ -151,8 +151,8 @@ img { display: block; max-width: 100%; }
 /* photo */
 .hero-photo-wrap { flex-shrink: 0; }
 .hero-photo-ring {
-  width: 168px;
-  height: 168px;
+  width: 336px;
+  height: 336px;
   border-radius: 50%;
   padding: 3px;
   background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--navy-light) 100%);
@@ -710,7 +710,7 @@ footer {
 
 @media (max-width: 480px) {
   .section { padding: 3.5rem 1.25rem; }
-  .hero-photo-ring { width: 140px; height: 140px; }
+  .hero-photo-ring { width: 220px; height: 220px; }
 }
 
 /* ─────────────────────────────────────────
