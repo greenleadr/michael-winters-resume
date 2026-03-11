@@ -674,14 +674,6 @@ img { display: block; max-width: 100%; }
   letter-spacing: .06em;
   padding: .2rem .7rem;
   border-radius: 100px;
-  display: inline-flex;
-  align-items: center;
-  gap: .35rem;
-}
-.co-logo {
-  width: 13px;
-  height: 13px;
-  flex-shrink: 0;
 }
 .company-badge.chewy    { background: #eaf4ff; color: #0070c0; }
 .company-badge.amazon   { background: #fff5e6; color: #c45000; }
