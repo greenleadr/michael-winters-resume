@@ -4,6 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Michael Winters — Senior Product Leader</title>
+  <meta name="description" content="Michael Winters is a Senior Product Leader with 15+ years at Amazon, Apple, Google, and Chewy. $300M in supply chain savings, 96% CSAT at Apple Watch launch, open to Senior Manager and Associate Director of Product roles." />
+  <meta property="og:title" content="Michael Winters — Senior Product Leader" />
+  <meta property="og:description" content="15+ years building and scaling high-impact teams at Amazon, Apple, Google, and Chewy. $300M in supply chain savings. Open to new opportunities." />
+  <meta property="og:image" content="headshot.jpeg" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Michael Winters — Senior Product Leader" />
+  <meta name="twitter:description" content="15+ years building and scaling high-impact teams at Amazon, Apple, Google, and Chewy." />
+  <meta name="twitter:image" content="headshot.jpeg" />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +29,7 @@
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#education">Education</a></li>
+        <li><a href="resume.pdf" download class="nav-resume">Download Resume</a></li>
         <li><a href="mailto:michaeladamwinters@gmail.com" class="nav-cta">Get in Touch</a></li>
       </ul>
       <button class="hamburger" aria-label="Toggle menu">&#9776;</button>
@@ -42,6 +52,10 @@
         </div>
       </div>
       <div class="hero-text">
+        <div class="open-to-work-badge">
+          <span class="otw-dot"></span>
+          Open to New Roles
+        </div>
         <h1>Michael Winters</h1>
         <p class="hero-title">Senior Product Leader &nbsp;·&nbsp; Team Builder &nbsp;·&nbsp; Org Transformer</p>
         <div class="hero-contacts">
@@ -58,7 +72,13 @@
             412-913-4226
           </a>
         </div>
-
+        <div class="hero-ctas">
+          <a href="#experience" class="hero-cta-primary">View My Work</a>
+          <a href="resume.pdf" download class="hero-cta-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+        </div>
       </div>
     </div>
     <div class="hero-scroll-hint">
@@ -105,6 +125,25 @@
       <div class="section-inner">
         <h2 class="section-heading">Experience</h2>
         <p class="section-subheading">Click any role to explore the full story.</p>
+
+        <!-- ── CASE STUDY SPOTLIGHTS ── -->
+        <div class="spotlights">
+          <div class="spotlight-card">
+            <span class="spotlight-co amazon">Amazon</span>
+            <h3 class="spotlight-title">Project Kariba</h3>
+            <p class="spotlight-desc">Conceived a first-of-its-kind upstream fulfillment model — staging bulk inventory at low-cost nodes instead of high-cost fulfillment centers — projecting <strong>$293M in supply chain savings</strong> over three years. Still in active use.</p>
+          </div>
+          <div class="spotlight-card">
+            <span class="spotlight-co apple">Apple</span>
+            <h3 class="spotlight-title">Apple Watch 1.0 Launch</h3>
+            <p class="spotlight-desc">Designed and launched day-one global customer support for Apple Watch, building custom real-time support tooling from scratch and achieving <strong>96% CSAT scores</strong> across all worldwide contact centers at launch.</p>
+          </div>
+          <div class="spotlight-card">
+            <span class="spotlight-co chewy">Chewy</span>
+            <h3 class="spotlight-title">AI for Product Managers</h3>
+            <p class="spotlight-desc">Designed and deployed Chewy's first enterprise AI program, equipping <strong>20+ product teams</strong> with practical LLM fluency across roadmapping, PRD drafting, and data analysis — driving measurable cost avoidance at scale.</p>
+          </div>
+        </div>
 
         <div class="timeline" id="timeline">
 
@@ -406,5 +445,6 @@
   </footer>
 
   <script src="main.js"></script>
+  <script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
