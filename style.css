@@ -479,12 +479,23 @@ img { display: block; max-width: 100%; }
 }
 .achievement-list li {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: .6rem;
+  flex-direction: column;
+  gap: .35rem;
   font-size: .93rem;
   line-height: 1.65;
   color: var(--text);
+  padding-left: 1rem;
+  position: relative;
+}
+.achievement-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .65em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--gold);
 }
 .achievement-tag {
   font-size: .68rem;
@@ -494,8 +505,7 @@ img { display: block; max-width: 100%; }
   padding: .18rem .6rem;
   border-radius: 100px;
   white-space: nowrap;
-  margin-top: .15rem;
-  flex-shrink: 0;
+  align-self: flex-start;
 }
 /* tag colors */
 .achievement-tag.analytics    { background: #e8f0fe; color: #1a56cc; }
