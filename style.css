@@ -762,7 +762,7 @@ img { display: block; max-width: 100%; }
 ───────────────────────────────────────── */
 .wib-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
   margin-top: 2rem;
 }
@@ -969,6 +969,7 @@ footer {
    RESPONSIVE
 ───────────────────────────────────────── */
 @media (max-width: 860px) {
+  .wib-grid { grid-template-columns: 1fr; }
   .skills-grid { grid-template-columns: 1fr; }
   .skill-group:nth-child(4) {
     flex-direction: column;
