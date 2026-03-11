@@ -1144,6 +1144,8 @@ footer {
 }
 .footer-links a:hover { color: var(--gold); }
 .footer-copy { font-size: .78rem; color: rgba(255,255,255,.35); }
+#ai-easter-egg { background: none; border: none; color: rgba(255,255,255,.18); font-size: .78rem; cursor: pointer; padding: 0 0 0 .2rem; transition: color .2s; }
+#ai-easter-egg:hover { color: rgba(255,255,255,.45); }
 
 /* ─────────────────────────────────────────
    RESPONSIVE
