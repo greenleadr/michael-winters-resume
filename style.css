@@ -253,14 +253,14 @@ img { display: block; max-width: 100%; }
   gap: 2.5rem;
   flex-wrap: wrap;
 }
-.co-name {
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: .04em;
-  color: rgba(255,255,255,.4);
-  transition: color var(--transition);
+.co-logo {
+  height: 28px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: .4;
+  transition: opacity var(--transition);
 }
-.co-name:hover { color: rgba(255,255,255,.7); }
+.co-logo:hover { opacity: .8; }
 
 /* scroll hint */
 .hero-scroll-hint {
