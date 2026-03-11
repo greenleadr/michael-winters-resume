@@ -228,39 +228,7 @@ img { display: block; max-width: 100%; }
   transform: translateY(-2px);
 }
 
-/* company logo strip */
-.hero-companies {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: .65rem;
-  margin-top: 1.75rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid rgba(255,255,255,.1);
-  width: 100%;
-}
-.hero-companies-label {
-  font-size: .7rem;
-  font-weight: 600;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,.35);
-}
-.hero-companies-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-}
-.co-logo {
-  height: 28px;
-  width: auto;
-  filter: brightness(0) invert(1);
-  opacity: .4;
-  transition: opacity var(--transition);
-}
-.co-logo:hover { opacity: .8; }
+
 
 /* scroll hint */
 .hero-scroll-hint {
