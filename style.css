@@ -2,24 +2,24 @@
    TOKENS & RESET
 ───────────────────────────────────────── */
 :root {
-  --navy:       #0d1f3c;
-  --navy-mid:   #162b52;
-  --navy-light: #1e3a6e;
+  --navy:       #1b3a2d;
+  --navy-mid:   #2a5740;
+  --navy-light: #3a7355;
   --gold:       #c49a3c;
   --gold-light: #e0b85c;
   --white:      #ffffff;
-  --off-white:  #f5f7fa;
-  --text:       #1a2744;
-  --text-muted: #5a6a8a;
-  --border:     #dde3ef;
+  --off-white:  #f4f8f5;
+  --text:       #1a2e22;
+  --text-muted: #4e6e5c;
+  --border:     #cfe0d8;
 
   --radius-sm:  6px;
   --radius-md:  12px;
   --radius-lg:  20px;
 
-  --shadow-sm:  0 2px 8px rgba(13,31,60,.08);
-  --shadow-md:  0 4px 20px rgba(13,31,60,.12);
-  --shadow-lg:  0 8px 40px rgba(13,31,60,.18);
+  --shadow-sm:  0 2px 8px rgba(27,58,45,.08);
+  --shadow-md:  0 4px 20px rgba(27,58,45,.12);
+  --shadow-lg:  0 8px 40px rgba(27,58,45,.18);
 
   --transition: .25s cubic-bezier(.4,0,.2,1);
   --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -49,14 +49,14 @@ img { display: block; max-width: 100%; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 100;
-  background: rgba(13,31,60,.92);
+  background: rgba(27,58,45,.92);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(255,255,255,.07);
   transition: background var(--transition), box-shadow var(--transition);
 }
 #navbar.scrolled {
-  background: rgba(13,31,60,.98);
+  background: rgba(27,58,45,.98);
   box-shadow: var(--shadow-md);
 }
 .nav-inner {
@@ -115,15 +115,15 @@ img { display: block; max-width: 100%; }
    HERO
 ───────────────────────────────────────── */
 #hero {
-  min-height: 100vh;
+  min-height: 52vh;
   background:
-    radial-gradient(ellipse 70% 60% at 30% 40%, rgba(30,58,110,.6) 0%, transparent 70%),
-    linear-gradient(160deg, var(--navy) 0%, #0a1628 60%, #111d38 100%);
+    radial-gradient(ellipse 70% 60% at 30% 40%, rgba(58,115,85,.5) 0%, transparent 70%),
+    linear-gradient(160deg, var(--navy) 0%, #0f2318 60%, #162c20 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 2rem 4rem;
+  padding: 90px 2rem 3rem;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -144,17 +144,17 @@ img { display: block; max-width: 100%; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 1.25rem;
   max-width: 800px;
 }
 
 /* photo */
 .hero-photo-wrap { flex-shrink: 0; }
 .hero-photo-ring {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
-  padding: 4px;
+  padding: 3px;
   background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--navy-light) 100%);
   box-shadow: 0 0 0 2px rgba(196,154,60,.25), var(--shadow-lg);
   position: relative;
@@ -173,11 +173,11 @@ img { display: block; max-width: 100%; }
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--navy-mid), var(--navy-light));
+  background: linear-gradient(135deg, var(--navy), var(--navy-light));
   align-items: center;
   justify-content: center;
   font-family: var(--font-serif);
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--gold);
   letter-spacing: .04em;
@@ -710,7 +710,7 @@ footer {
 
 @media (max-width: 480px) {
   .section { padding: 3.5rem 1.25rem; }
-  .hero-photo-ring { width: 140px; height: 140px; }
+  .hero-photo-ring { width: 100px; height: 100px; }
 }
 
 /* ─────────────────────────────────────────
