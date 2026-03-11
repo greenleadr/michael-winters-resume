@@ -75,6 +75,7 @@ const fadeTargets = [
   '.skill-group',
   '.edu-card',
   '.community-card',
+  '.pet-card',
   '.summary-text',
   '.section-heading',
 ];
