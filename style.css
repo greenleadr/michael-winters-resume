@@ -253,23 +253,14 @@ img { display: block; max-width: 100%; }
   gap: 2.5rem;
   flex-wrap: wrap;
 }
-.co-logo {
-  height: 22px;
-  width: auto;
-  color: rgba(255,255,255,.45);
-  fill: rgba(255,255,255,.45);
-  transition: color var(--transition), fill var(--transition);
-}
-.co-logo:hover {
-  color: rgba(255,255,255,.75);
-  fill: rgba(255,255,255,.75);
-}
-.co-text {
-  font-size: 1.15rem;
+.co-name {
+  font-size: 1rem;
   font-weight: 700;
-  letter-spacing: .02em;
-  line-height: 22px;
+  letter-spacing: .04em;
+  color: rgba(255,255,255,.4);
+  transition: color var(--transition);
 }
+.co-name:hover { color: rgba(255,255,255,.7); }
 
 /* scroll hint */
 .hero-scroll-hint {
