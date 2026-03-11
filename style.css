@@ -808,7 +808,7 @@ img { display: block; max-width: 100%; }
 ───────────────────────────────────────── */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 .skill-group {
@@ -821,6 +821,33 @@ img { display: block; max-width: 100%; }
 }
 .skill-group:nth-child(2) { border-top-color: var(--gold); }
 .skill-group:nth-child(3) { border-top-color: var(--navy-mid); }
+/* Writing & Communication — full-width featured card */
+.skill-group:nth-child(4) {
+  grid-column: 1 / -1;
+  border-top-color: var(--gold);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+  padding: 0;
+}
+.skill-group:nth-child(4) .skill-group-title {
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: .6rem;
+  width: 210px;
+  padding: 1.5rem;
+  margin-bottom: 0;
+  border-bottom: none;
+  border-right: 1px solid var(--border);
+}
+.skill-group:nth-child(4) .skill-tags {
+  flex: 1;
+  padding: 1.5rem;
+  align-content: flex-start;
+}
 .skill-group:hover {
   box-shadow: var(--shadow-md);
   transform: translateY(-2px);
@@ -941,6 +968,23 @@ footer {
 /* ─────────────────────────────────────────
    RESPONSIVE
 ───────────────────────────────────────── */
+@media (max-width: 860px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .skill-group:nth-child(4) {
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+  .skill-group:nth-child(4) .skill-group-title {
+    width: auto;
+    flex-direction: row;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 0 0 .75rem;
+    margin-bottom: 1.1rem;
+  }
+  .skill-group:nth-child(4) .skill-tags { padding: 0; }
+}
+
 @media (max-width: 700px) {
   .nav-links { display: none; }
   .nav-links.open {
