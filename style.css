@@ -409,6 +409,28 @@ img { display: block; max-width: 100%; }
   line-height: 1.75;
   margin-bottom: 1rem;
 }
+.philosophy-callout {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  background: var(--navy);
+  color: var(--off-white);
+  border-radius: var(--radius-md);
+  padding: 1.4rem 1.6rem;
+  margin: 1.5rem 0 1.75rem;
+}
+.philosophy-callout p {
+  font-size: .97rem;
+  line-height: 1.7;
+  margin: 0;
+}
+.philosophy-callout strong { color: var(--gold-light); }
+.philosophy-icon {
+  flex-shrink: 0;
+  margin-top: .15rem;
+  color: var(--gold-light);
+  opacity: .9;
+}
 .stat-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
