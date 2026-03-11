@@ -736,6 +736,52 @@ img { display: block; max-width: 100%; }
 .spotify-link:hover { opacity: .85; transform: translateY(-1px); }
 
 /* ─────────────────────────────────────────
+   WHAT I BRING
+───────────────────────────────────────── */
+.wib-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.wib-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 1.5rem;
+  transition: box-shadow var(--transition), transform var(--transition);
+}
+.wib-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+.wib-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.1rem;
+}
+.wib-icon--build  { background: rgba(27,58,45,.1);  color: var(--navy); }
+.wib-icon--clarity { background: rgba(196,154,60,.12); color: var(--gold); }
+.wib-icon--people  { background: rgba(58,115,85,.12); color: var(--navy-light); }
+.wib-icon--ai      { background: rgba(224,184,92,.15); color: #8a6820; }
+.wib-title {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: .6rem;
+}
+.wib-desc {
+  font-size: .9rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+/* ─────────────────────────────────────────
    SKILLS
 ───────────────────────────────────────── */
 .skills-grid {
@@ -744,20 +790,28 @@ img { display: block; max-width: 100%; }
   gap: 1.5rem;
 }
 .skill-group {
-  background: var(--off-white);
+  background: var(--white);
   border: 1px solid var(--border);
+  border-top: 3px solid var(--navy-light);
   border-radius: var(--radius-md);
   padding: 1.5rem;
-  transition: box-shadow var(--transition);
+  transition: box-shadow var(--transition), transform var(--transition);
 }
-.skill-group:hover { box-shadow: var(--shadow-md); }
+.skill-group:nth-child(2) { border-top-color: var(--gold); }
+.skill-group:nth-child(3) { border-top-color: var(--navy-mid); }
+.skill-group:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
 .skill-group-title {
   font-size: .875rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .06em;
   color: var(--navy);
-  margin-bottom: 1rem;
+  margin-bottom: 1.1rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--border);
   display: flex;
   align-items: center;
   gap: .5rem;
