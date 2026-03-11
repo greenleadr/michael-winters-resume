@@ -177,11 +177,3 @@ const counterObserver = new IntersectionObserver(entries => {
 document.querySelectorAll('.stat-number[data-count]').forEach(el => {
   counterObserver.observe(el);
 });
-
-// ── Easter egg ────────────────────────────────────────────────────────────────
-document.getElementById('ai-easter-egg').addEventListener('click', function () {
-  this.textContent = 'Yes. That\'s the point.';
-  this.style.color = 'rgba(255,255,255,.55)';
-  this.style.cursor = 'default';
-  this.removeEventListener('click', arguments.callee);
-});
