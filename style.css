@@ -556,6 +556,21 @@ img { display: block; max-width: 100%; }
 .community-org  { font-size: 1.05rem; font-weight: 600; color: var(--navy); }
 .community-date { font-size: .82rem; color: var(--text-muted); margin: .25rem 0 .6rem; }
 .community-desc { font-size: .92rem; color: var(--text); line-height: 1.65; }
+.community-card + .community-card { margin-top: 1rem; }
+.spotify-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-top: .75rem;
+  padding: .4rem .9rem;
+  background: #1DB954;
+  color: #fff;
+  font-size: .82rem;
+  font-weight: 600;
+  border-radius: 100px;
+  transition: opacity var(--transition), transform var(--transition);
+}
+.spotify-link:hover { opacity: .85; transform: translateY(-1px); }
 
 /* ─────────────────────────────────────────
    SKILLS
