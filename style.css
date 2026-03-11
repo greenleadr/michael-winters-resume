@@ -1010,6 +1010,10 @@ img { display: block; max-width: 100%; }
   gap: 1.5rem;
   margin-top: 2rem;
 }
+.pet-grid--two {
+  grid-template-columns: repeat(2, minmax(0, 340px));
+  justify-content: center;
+}
 .pet-card {
   display: flex;
   flex-direction: column;
