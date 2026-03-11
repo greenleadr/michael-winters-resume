@@ -291,7 +291,6 @@ img { display: block; max-width: 100%; }
   font-size: 1.05rem;
   line-height: 1.75;
   margin-bottom: 1rem;
-  max-width: 760px;
 }
 .stat-row {
   display: grid;
