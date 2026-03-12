@@ -1,0 +1,72 @@
+# Michael Winters: Senior Product Leader
+
+> Resume and professional profile for Michael Winters — a product and program leader with 15+ years of experience at Amazon, Apple, Google, and Chewy. Open to Senior Manager and Associate Director of Product roles in consumer, retail, pet care, and health and fitness.
+
+Michael Winters builds and scales teams in situations that are complex, undefined, or broken, and leaves results that are hard to argue with. His work spans supply chain optimization, compliance technology, AI product strategy, and consumer experience — all anchored by a customer-first philosophy and a direct, data-driven communication style.
+
+## Professional Summary
+
+- **Open to work**: Targeting Senior Manager and Associate Director of Product roles
+- **Target industries**: Consumer, retail, pet care, health and fitness
+- **Location**: Whidbey Island, Washington
+- **LinkedIn**: https://linkedin.com/in/michaeladamwinters/
+
+## Career History
+
+- **Chewy** (Apr 2023–Oct 2025): Director of Product Management, GRC & Privacy Technology. Hand-selected by the CTO and CISO to stabilize the GRC and Privacy Technology teams during a critical transition. Led PCI DSS 4.0 readiness assessments across three business entities to Attestation of Compliance delivery. Reduced audit cycle time by 50%. Managed 13 people globally; mentored 20% to promotion and turned around 30% of underperformers within 12 months. Built Chewy's first enterprise AI for Product Managers program, equipping 20+ product teams with LLM fluency. Re-architected product analytics instrumentation into a unified metrics framework adopted by 20+ teams, eliminating 50+ manually corrected metrics and saving 20 hours/week.
+
+- **Amazon, CV ML Solutions** (Jun 2022–Apr 2023): Principal Technical Program Manager. Acted as Technical Lead for a 21-person cross-disciplinary team deploying CV-based defect detection across 300+ fulfillment centers, driving an 11% reduction in item defect rates.
+
+- **Amazon, Supply Chain & Fulfillment** (Mar 2017–Jun 2022): Senior Product Manager. Led Project Kariba — a first-of-its-kind upstream fulfillment model projecting $293M in supply chain savings over three years. Still in active use.
+
+- **Apple** (Oct 2015–Mar 2017): Program Manager, Global Customer Support. Designed and launched day-one global customer support for Apple Watch 1.0, building custom real-time support tooling from scratch and achieving 96% Customer Satisfaction across all worldwide contact centers at launch.
+
+- **Google** (Sep 2013–Oct 2015): Program Manager, Trust & Safety.
+
+## Notable Achievements
+
+- $300M+ in supply chain savings (Amazon Project Kariba)
+- 96% Customer Satisfaction at Apple Watch global launch
+- 50% reduction in compliance audit cycles (Chewy PCI DSS 4.0)
+- First enterprise AI for Product Managers program at Chewy
+- Led 13-person global team; 20% promoted under his management
+
+## Core Skills
+
+- Product Strategy & Roadmapping
+- AI/ML Product Development
+- GRC & Privacy Technology (PCI DSS, SOC 2, GDPR, CCPA)
+- Supply Chain Optimization
+- Data Analytics & Metrics Frameworks (SQL, Tableau, Looker, Amplitude, Mixpanel)
+- People Leadership & Team Development
+- Enterprise AI Programs
+
+## Philosophy
+
+Michael's core belief: product management must start with one question — what problem are we solving for the customer? When teams stay anchored to that question, the work becomes clearer, the roadmap becomes defensible, and the value delivered becomes real.
+
+He is a daily LLM user with direct experience designing and deploying enterprise-wide AI programs. Operates at both ends of the org: C-suite strategy and execution-level product work, without losing the thread between them.
+
+## Communication & Voice
+
+Michael's writing is direct, data-driven, and stripped of performative language:
+- Uses specific metrics over vague claims ("reduced audit cycle time by 50%" not "improved compliance")
+- Opens with executive summary; closes with action items
+- Preempts objections and risks in all strategic documents
+- Never hedges with "I feel like" or "it seems" in professional writing
+- Presents opinions explicitly as opinions: "It is my opinion that..."
+
+## Personal
+
+- Triathlete and avid swimmer (swim, bike, run)
+- Multi-instrumentalist: guitar, piano, drums, trumpet
+- Founder of Wintergreen Sound, a home recording studio on Whidbey Island dedicated to local musicians
+- Founder and Musical Director of Green Leader, an instrumental music project blending funk, soul, R&B, and psychedelia; debut album *Trails* available on Spotify
+- Epic fantasy devotee (novels, films, tabletop RPGs, video games)
+- Board member emeritus, EarthCorps (Sep 2022–Feb 2025)
+
+## Detailed Voice & Writing Profile
+
+For a comprehensive profile of Michael's communication style, beliefs, writing mechanics, and voice calibration for use in AI-assisted writing:
+
+- [about-me.md](about-me.md): Full voice profile including beliefs, writing mechanics, aesthetic standards, structural preferences, hard rules, and instructions for AI systems writing in his voice.
