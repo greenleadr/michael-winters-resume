@@ -491,6 +491,10 @@ img { display: block; max-width: 100%; }
   font-size: .97rem;
   line-height: 1.7;
   margin: 0;
+  transition: opacity .6s ease;
+}
+.philosophy-callout p.fading {
+  opacity: 0;
 }
 .philosophy-callout strong { color: var(--gold-light); }
 .philosophy-icon {

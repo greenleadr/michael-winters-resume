@@ -2,6 +2,32 @@
    Michael Winters Resume — Interactive JS
 ────────────────────────────────────────── */
 
+// ── Rotating philosophy quotes ────────────────────────────────────────────────
+const philosophyQuotes = [
+  "Your customers will always tell you the truth if you're willing to listen. The best product decisions I've ever made didn't come from experience or instinct. They came from paying attention to the people actually using what we built.",
+  "Tell people the why, not just the what. When your team understands the reason behind a decision, they don't just execute. They buy in, they push back when something doesn't make sense, and they bring ideas you never would have thought of on your own.",
+  "My favorite part of leadership is watching someone realize they're capable of more than they thought. I don't believe my job is to have all the answers. My job is to create the conditions where the people around me can find them.",
+  "Honest work beats polished work every single time. Say what you mean, build what matters, and don't waste energy making something look good if it doesn't actually solve the problem it was supposed to solve.",
+  "The best products are built by people who genuinely care about the person on the other side of the screen. If you start with that as your foundation, the strategy, the roadmap, and the hard calls all get a lot clearer.",
+];
+
+(function initPhilosophyRotator() {
+  const el = document.getElementById('philosophy-quote');
+  if (!el) return;
+  let index = 0;
+
+  el.textContent = philosophyQuotes[index];
+
+  setInterval(() => {
+    el.classList.add('fading');
+    setTimeout(() => {
+      index = (index + 1) % philosophyQuotes.length;
+      el.textContent = philosophyQuotes[index];
+      el.classList.remove('fading');
+    }, 600); // matches CSS transition duration
+  }, 7000); // 7s per quote
+})();
+
 // ── Navbar: scroll class & mobile hamburger ──────────────────────────────────
 const navbar = document.getElementById('navbar');
 const hamburger = document.querySelector('.hamburger');
