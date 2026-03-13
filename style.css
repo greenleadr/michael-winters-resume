@@ -8,18 +8,18 @@
   --gold:       #c49a3c;
   --gold-light: #e0b85c;
   --white:      #ffffff;
-  --off-white:  #f4f8f5;
-  --text:       #1a2e22;
-  --text-muted: #4e6e5c;
-  --border:     #cfe0d8;
+  --off-white:  #0c1910;
+  --text:       #c8dfd0;
+  --text-muted: #6a9478;
+  --border:     #1d3828;
 
   --radius-sm:  6px;
   --radius-md:  12px;
   --radius-lg:  20px;
 
-  --shadow-sm:  0 2px 8px rgba(27,58,45,.08);
-  --shadow-md:  0 4px 20px rgba(27,58,45,.12);
-  --shadow-lg:  0 8px 40px rgba(27,58,45,.18);
+  --shadow-sm:  0 2px 8px rgba(0,0,0,.4);
+  --shadow-md:  0 4px 20px rgba(0,0,0,.55);
+  --shadow-lg:  0 8px 40px rgba(0,0,0,.7);
 
   --transition: .25s cubic-bezier(.4,0,.2,1);
   --font-sans:  'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -1276,3 +1276,124 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ─────────────────────────────────────────
+   DARK FOREST MODE
+───────────────────────────────────────── */
+
+/* Section surfaces */
+.section-alt { background: #122019; }
+
+/* Cards & panels */
+.stat-card,
+.spotlight-card,
+.timeline-header,
+.community-card,
+.wib-card,
+.skill-group,
+.edu-card,
+.pet-card {
+  background: #122019;
+  border-color: var(--border);
+}
+.timeline-body { background: #0e1c12; }
+.timeline-spine-dot {
+  background: #122019;
+  border-color: var(--border);
+}
+
+/* Philosophy callout: bg stays as --navy (dark panel), fix text */
+.philosophy-callout { color: var(--text); }
+
+/* Headings that were dark navy text on light cards */
+.section-heading { color: var(--gold); }
+.stat-number     { color: var(--gold); }
+.timeline-role   { color: var(--text); }
+.spotlight-title { color: var(--text); }
+.community-org   { color: var(--text); }
+.wib-title       { color: var(--gold-light); }
+.fun-fact-title  { color: var(--text); }
+.edu-degree      { color: var(--text); }
+.pet-name        { color: var(--text); }
+.skill-group-title { color: var(--text); }
+
+/* Availability chips on dark hero */
+.avail-chip {
+  border-color: rgba(200,223,208,.25);
+  color:        rgba(200,223,208,.7);
+}
+
+/* Skill tags */
+.skill-tag {
+  background:   rgba(255,255,255,.04);
+  border-color: var(--border);
+  color:        var(--text-muted);
+}
+.skill-tag:hover {
+  border-color: var(--gold);
+  background:   rgba(196,154,60,.12);
+  color:        var(--gold-light);
+}
+.skill-tag.highlight {
+  background:   rgba(196,154,60,.13);
+  border-color: var(--gold);
+  color:        var(--gold-light);
+}
+.skill-tag.highlight:hover {
+  background: rgba(196,154,60,.22);
+  color:      var(--gold);
+}
+
+/* Achievement tags */
+.achievement-tag.analytics    { background: #0f2040; color: #80b8f8; }
+.achievement-tag.ai           { background: #20103a; color: #c090f0; }
+.achievement-tag.strategy     { background: #301806; color: #f09050; }
+.achievement-tag.security     { background: #300e0e; color: #f07878; }
+.achievement-tag.compliance   { background: #0c2214; color: #60c070; }
+.achievement-tag.people       { background: #220c30; color: #d080e0; }
+.achievement-tag.ml           { background: #0c1c3a; color: #80b0f8; }
+.achievement-tag.supply-chain { background: #281600; color: #e09840; }
+.achievement-tag.platform     { background: #081e30; color: #60b8e8; }
+.achievement-tag.cost         { background: #082412; color: #50c068; }
+.achievement-tag.crisis       { background: #280810; color: #f06070; }
+.achievement-tag.launch       { background: #201c04; color: #d0b430; }
+.achievement-tag.partnerships { background: #0c2214; color: #60c070; }
+
+/* Company badges */
+.company-badge.chewy  { background: #0a1e34; color: #70b8f8; }
+.company-badge.amazon { background: #281600; color: #f09040; }
+.company-badge.apple  { background: #1c1c1c; color: #c8c8c8; }
+.company-badge.google { background: #0a1e10; color: #60c070; }
+
+/* Spotlight company labels */
+.spotlight-co.amazon { background: #281600; color: #e09040; }
+.spotlight-co.apple  { background: #1c1c1c; color: #c0c0c0; }
+.spotlight-co.chewy  { background: #0a1e10; color: #60c070; }
+
+/* Fun fact cards */
+.fun-fact--swim    { background: linear-gradient(135deg, #0a1828 0%, #0c2234 100%); }
+.fun-fact--music   { background: linear-gradient(135deg, #16102a 0%, #1e1430 100%); }
+.fun-fact--studio  { background: linear-gradient(135deg, #0c1e14 0%, #102618 100%); }
+.fun-fact--fantasy { background: linear-gradient(135deg, #1e1408 0%, #261a0c 100%); }
+.fun-fact--swim    .fun-fact-icon { color: #60a8d8; }
+.fun-fact--music   .fun-fact-icon { color: #b070e0; }
+.fun-fact--fantasy .fun-fact-icon { color: #d09040; }
+
+/* Pet placeholders */
+.pet-placeholder--dog {
+  background: linear-gradient(135deg, #0e2818 0%, #122014 100%);
+  color: var(--navy-light);
+}
+.pet-placeholder--pig {
+  background: linear-gradient(135deg, #28101a 0%, #200c12 100%);
+  color: #d07898;
+}
+
+/* WIB icon backgrounds */
+.wib-icon--build   { background: rgba(61,122,88,.2);  color: var(--navy-light); }
+.wib-icon--clarity { background: rgba(196,154,60,.15); color: var(--gold); }
+.wib-icon--people  { background: rgba(61,122,88,.15);  color: var(--navy-light); }
+.wib-icon--ai      { background: rgba(224,184,92,.12); color: var(--gold-light); }
+
+/* Mobile nav dropdown */
+.nav-links.open { background: rgba(8,18,10,.98); }
