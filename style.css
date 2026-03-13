@@ -679,10 +679,11 @@ img { display: block; max-width: 100%; }
   padding: .2rem .7rem;
   border-radius: 100px;
 }
-.company-badge.chewy    { background: #eaf4ff; color: #0070c0; }
-.company-badge.amazon   { background: #fff5e6; color: #c45000; }
-.company-badge.apple    { background: #f0f0f0; color: #333; }
-.company-badge.google   { background: #e8f5e9; color: #1a7340; }
+.company-badge.chewy       { background: #eaf4ff; color: #0070c0; }
+.company-badge.amazon      { background: #fff5e6; color: #c45000; }
+.company-badge.apple       { background: #f0f0f0; color: #333; }
+.company-badge.google      { background: #e8f5e9; color: #1a7340; }
+.company-badge.consulting  { background: #f3f0ff; color: #6d28d9; }
 
 .timeline-role {
   font-size: 1.05rem;
@@ -780,6 +781,7 @@ img { display: block; max-width: 100%; }
 .achievement-tag.crisis       { background: #fff1f2; color: #be123c; }
 .achievement-tag.launch       { background: #fefce8; color: #854d0e; }
 .achievement-tag.partnerships { background: #f0fdf4; color: #166534; }
+.achievement-tag.consulting   { background: #f3f0ff; color: #6d28d9; }
 
 /* ─────────────────────────────────────────
    COMMUNITY
@@ -1358,12 +1360,14 @@ footer {
 .achievement-tag.crisis       { background: #280810; color: #f06070; }
 .achievement-tag.launch       { background: #201c04; color: #d0b430; }
 .achievement-tag.partnerships { background: #0c2214; color: #60c070; }
+.achievement-tag.consulting   { background: #1a0e38; color: #b49eff; }
 
 /* Company badges */
-.company-badge.chewy  { background: #0a1e34; color: #70b8f8; }
-.company-badge.amazon { background: #281600; color: #f09040; }
-.company-badge.apple  { background: #1c1c1c; color: #c8c8c8; }
-.company-badge.google { background: #0a1e10; color: #60c070; }
+.company-badge.chewy       { background: #0a1e34; color: #70b8f8; }
+.company-badge.amazon      { background: #281600; color: #f09040; }
+.company-badge.apple       { background: #1c1c1c; color: #c8c8c8; }
+.company-badge.google      { background: #0a1e10; color: #60c070; }
+.company-badge.consulting  { background: #1a0e38; color: #b49eff; }
 
 /* Spotlight company labels */
 .spotlight-co.amazon { background: #281600; color: #e09040; }
