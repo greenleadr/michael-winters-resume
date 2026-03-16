@@ -82,16 +82,6 @@ document.querySelectorAll('.timeline-item').forEach(item => {
   });
 });
 
-// Open the first timeline item by default after a short delay
-window.addEventListener('DOMContentLoaded', () => {
-  setTimeout(() => {
-    const first = document.querySelector('.timeline-item');
-    if (first) {
-      first.classList.add('open');
-      first.querySelector('.timeline-header').setAttribute('aria-expanded', 'true');
-    }
-  }, 600);
-});
 
 
 // ── Scroll-in fade animations ─────────────────────────────────────────────────
