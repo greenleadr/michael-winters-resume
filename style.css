@@ -596,6 +596,51 @@ img { display: block; max-width: 100%; }
 }
 .spotlight-link:hover { color: #0d9488; }
 
+.spotlight-featured {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-left: 4px solid #0f766e;
+  border-radius: var(--radius-md);
+  padding: 1.75rem 2rem;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 3rem;
+}
+.spotlight-featured-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: .75rem;
+}
+.spotlight-featured-header .spotlight-title { margin-bottom: 0; }
+.spotlight-featured-header .spotlight-link  { margin-top: 0; margin-left: auto; }
+.spotlight-featured-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1.25rem;
+}
+.sfs-stat {
+  display: flex;
+  flex-direction: column;
+  background: #f0fdf9;
+  border: 1px solid #99f6e4;
+  border-radius: var(--radius-sm);
+  padding: .55rem 1rem;
+  min-width: 100px;
+}
+.sfs-num {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f766e;
+  line-height: 1.2;
+}
+.sfs-label {
+  font-size: .72rem;
+  color: var(--text-muted);
+  margin-top: .15rem;
+}
+
 /* ─────────────────────────────────────────
    TIMELINE
 ───────────────────────────────────────── */
@@ -1389,6 +1434,9 @@ footer {
 .spotlight-co.apple    { background: #1c1c1c; color: #c0c0c0; }
 .spotlight-co.chewy    { background: #0a1e10; color: #60c070; }
 .spotlight-co.vetready { background: #0a1e1c; color: #5eead4; }
+.spotlight-featured     { border-left-color: #5eead4; }
+.sfs-stat               { background: #0a1e1c; border-color: #134e4a; }
+.sfs-num                { color: #5eead4; }
 
 /* Fun fact cards */
 .fun-fact--swim    { background: linear-gradient(135deg, #0a1828 0%, #0c2234 100%); }
