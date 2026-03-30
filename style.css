@@ -570,9 +570,10 @@ img { display: block; max-width: 100%; }
   border-radius: 100px;
   margin-bottom: .75rem;
 }
-.spotlight-co.amazon  { background: #fff7ed; color: #b45309; }
-.spotlight-co.apple   { background: #f5f5f7; color: #1d1d1f; }
-.spotlight-co.chewy   { background: #f0fdf4; color: #166534; }
+.spotlight-co.amazon   { background: #fff7ed; color: #b45309; }
+.spotlight-co.apple    { background: #f5f5f7; color: #1d1d1f; }
+.spotlight-co.chewy    { background: #f0fdf4; color: #166534; }
+.spotlight-co.vetready { background: #f0fdf9; color: #0f766e; }
 .spotlight-title {
   font-size: 1.05rem;
   font-weight: 700;
@@ -584,6 +585,16 @@ img { display: block; max-width: 100%; }
   color: var(--text);
   line-height: 1.65;
 }
+.spotlight-link {
+  display: inline-block;
+  margin-top: .5rem;
+  font-size: .82rem;
+  font-weight: 600;
+  color: #0f766e;
+  text-decoration: none;
+  transition: color var(--transition);
+}
+.spotlight-link:hover { color: #0d9488; }
 
 /* ─────────────────────────────────────────
    TIMELINE
@@ -782,6 +793,8 @@ img { display: block; max-width: 100%; }
 .achievement-tag.launch       { background: #fefce8; color: #854d0e; }
 .achievement-tag.partnerships { background: #f0fdf4; color: #166534; }
 .achievement-tag.consulting   { background: #f3f0ff; color: #6d28d9; }
+.achievement-tag.founder      { background: #f0fdf9; color: #0f766e; }
+.achievement-tag.fullstack    { background: #f0f9ff; color: #0369a1; }
 
 /* ─────────────────────────────────────────
    COMMUNITY
@@ -1361,6 +1374,8 @@ footer {
 .achievement-tag.launch       { background: #201c04; color: #d0b430; }
 .achievement-tag.partnerships { background: #0c2214; color: #60c070; }
 .achievement-tag.consulting   { background: #1a0e38; color: #b49eff; }
+.achievement-tag.founder      { background: #0a1e1c; color: #5eead4; }
+.achievement-tag.fullstack    { background: #081e30; color: #60b8e8; }
 
 /* Company badges */
 .company-badge.chewy       { background: #0a1e34; color: #70b8f8; }
@@ -1370,9 +1385,10 @@ footer {
 .company-badge.consulting  { background: #1a0e38; color: #b49eff; }
 
 /* Spotlight company labels */
-.spotlight-co.amazon { background: #281600; color: #e09040; }
-.spotlight-co.apple  { background: #1c1c1c; color: #c0c0c0; }
-.spotlight-co.chewy  { background: #0a1e10; color: #60c070; }
+.spotlight-co.amazon   { background: #281600; color: #e09040; }
+.spotlight-co.apple    { background: #1c1c1c; color: #c0c0c0; }
+.spotlight-co.chewy    { background: #0a1e10; color: #60c070; }
+.spotlight-co.vetready { background: #0a1e1c; color: #5eead4; }
 
 /* Fun fact cards */
 .fun-fact--swim    { background: linear-gradient(135deg, #0a1828 0%, #0c2234 100%); }
