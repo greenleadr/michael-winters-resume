@@ -608,6 +608,13 @@ img { display: block; max-width: 100%; }
 .spotlight-featured-header {
   margin-bottom: .75rem;
 }
+.spotlight-featured-header .spotlight-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.spotlight-featured-header .spotlight-title a:hover {
+  text-decoration: underline;
+}
 .spotlight-featured-stats {
   display: flex;
   flex-wrap: wrap;
