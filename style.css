@@ -606,14 +606,8 @@ img { display: block; max-width: 100%; }
   margin-bottom: 3rem;
 }
 .spotlight-featured-header {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
   margin-bottom: .75rem;
 }
-.spotlight-featured-header .spotlight-title { margin-bottom: 0; }
-.spotlight-featured-header .spotlight-link  { margin-top: 0; margin-left: auto; }
 .spotlight-featured-stats {
   display: flex;
   flex-wrap: wrap;
@@ -1347,6 +1341,7 @@ footer {
 /* Cards & panels */
 .stat-card,
 .spotlight-card,
+.spotlight-featured,
 .timeline-header,
 .community-card,
 .wib-card,
@@ -1434,9 +1429,11 @@ footer {
 .spotlight-co.apple    { background: #1c1c1c; color: #c0c0c0; }
 .spotlight-co.chewy    { background: #0a1e10; color: #60c070; }
 .spotlight-co.vetready { background: #0a1e1c; color: #5eead4; }
-.spotlight-featured     { border-left-color: #5eead4; }
-.sfs-stat               { background: #0a1e1c; border-color: #134e4a; }
-.sfs-num                { color: #5eead4; }
+.spotlight-featured { border-left-color: #5eead4; }
+.sfs-stat           { background: rgba(94,234,212,.07); border-color: rgba(94,234,212,.22); }
+.sfs-num            { color: #5eead4; }
+.spotlight-link     { color: #5eead4; }
+.spotlight-link:hover { color: #99f6e4; }
 
 /* Fun fact cards */
 .fun-fact--swim    { background: linear-gradient(135deg, #0a1828 0%, #0c2234 100%); }
