@@ -1341,7 +1341,6 @@ footer {
 /* Cards & panels */
 .stat-card,
 .spotlight-card,
-.spotlight-featured,
 .timeline-header,
 .community-card,
 .wib-card,
@@ -1429,7 +1428,11 @@ footer {
 .spotlight-co.apple    { background: #1c1c1c; color: #c0c0c0; }
 .spotlight-co.chewy    { background: #0a1e10; color: #60c070; }
 .spotlight-co.vetready { background: #0a1e1c; color: #5eead4; }
-.spotlight-featured { border-left-color: #5eead4; }
+.spotlight-featured {
+  background: #0e1c12;
+  border-color: rgba(94,234,212,.3);
+  border-left-color: #5eead4;
+}
 .sfs-stat           { background: rgba(94,234,212,.07); border-color: rgba(94,234,212,.22); }
 .sfs-num            { color: #5eead4; }
 .spotlight-link     { color: #5eead4; }
