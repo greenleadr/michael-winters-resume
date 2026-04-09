@@ -383,6 +383,14 @@ img { display: block; max-width: 100%; }
   letter-spacing: .04em;
   text-transform: uppercase;
 }
+.hero-tagline {
+  font-size: 1rem;
+  color: rgba(255,255,255,.72);
+  font-weight: 400;
+  max-width: 500px;
+  margin: .45rem auto 0;
+  line-height: 1.6;
+}
 .hero-contacts {
   display: flex;
   flex-wrap: wrap;
